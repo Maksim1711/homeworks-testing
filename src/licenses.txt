@@ -1,0 +1,11 @@
+license
+visa.png
+mastercard.png
+jcb.png
+discover.png
+american-express.png
+diners.png
+Images taken from the site https://www.iconfinder.com/
+
+mir.png
+https://sanego.ru/upload/resize_cache/iblock/b40/300_70_1/egb4uk1zqvxxwxon091ilo2w183x0suy.jpg

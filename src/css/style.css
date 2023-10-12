@@ -1,0 +1,60 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+.validator {
+	margin-bottom: 50px;
+}
+
+.validator .card_input {
+	width: 250px;
+	padding: 5px 15px;
+	font-size: 20px;
+}
+
+.validator button {
+	border-radius: 5px;
+	padding: 8px 15px;
+	font-size: 16px;
+	background-color: green;
+	color: #ffffff;
+}
+
+.validator .card_info {
+	display: flex;
+	height: 40px;
+	font-size: 18px;
+}
+
+.validator .logo {
+	vertical-align: text-top;
+	height: 20px;
+	margin-left: 15px;
+}
+
+.validator .card_info .validity {
+	margin-right: 25px;
+}
+
+.validator span {
+	font-weight: bold;
+}
+
+.validator .valid {
+	color: #2ad400;
+}
+
+.validator .invalid {
+	color: #dd0000;
+}
+
+.examples,
+.examples td,
+.examples th {
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+}
