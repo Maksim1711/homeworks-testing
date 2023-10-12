@@ -4,7 +4,6 @@
 	],
 	"extends": [
 		"eslint:recommended",
-		"parser:babel-eslint",
 		"plugin:prettier/recommended"
 	],
 	"env": {
