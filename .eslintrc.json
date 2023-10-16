@@ -13,11 +13,12 @@
 		"node": true,
 		"commonjs": true
 	},
+	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
 		"sourceType": "module"
 	},
 	"rules": {
-		"no-unused-vars": "warn"
+		"no-unused-vars": "off"
 	},
 	"overrides": [
 		{
@@ -31,7 +32,8 @@
 				"plugin:jest/recommended"
 			],
 			"rules": {
-				"jest/prefer-expect-assertions": "off"
+				 "jest/prefer-expect-assertions": "off",
+				 "jest/expect-expect": "off"
 			}
 		}
 	]

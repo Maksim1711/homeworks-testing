@@ -36,40 +36,40 @@ export default class CheckCard {
 
   checkPaySystem() {
     const paySystems = {
-      mir: {
-        name: "Mir",
-        issuer: "mir",
-        pattern: /^(22)/,
-      },
       visa: {
         name: "Visa",
-        issuer: "visa",
+        alias: "visa",
         pattern: /^4/,
       },
       mastercard: {
         name: "Mastercard",
-        issuer: "mastercard",
+        alias: "mastercard",
         pattern: /^(51|52|53|54|55|22[2-9]|271|272)/,
       },
       "american-express": {
         name: "American Express",
-        issuer: "american-express",
+        alias: "american-express",
         pattern: /^(34|37)/,
       },
       "diners-club": {
         name: "Diners Club",
-        issuer: "diners-club",
+        alias: "diners",
         pattern: /^(30|36)/,
       },
       discover: {
         name: "Discover",
-        issuer: "discover",
+        alias: "discover",
         pattern: /^(60|622[1-3]|64|65)/,
       },
       jcb: {
         name: "JCB",
-        issuer: "jcb",
+        alias: "jcb",
         pattern: /^35[2-8]/,
+      },
+      mir: {
+        name: "Mir",
+        alias: "mir",
+        pattern: /^(22)/,
       },
     };
 

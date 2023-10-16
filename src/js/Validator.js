@@ -38,7 +38,7 @@ export default class Validator {
       if (cardValidity.paySystem) {
         const paySystemImage = document.createElement("img");
         paySystemImage.classList.add("logo");
-        paySystemImage.src = `src/img/${cardValidity.paySystem.issuer}.png`;
+        paySystemImage.src = `src/img/${cardValidity.paySystem.alias}.png`;
         this.paymentElement.appendChild(paySystemImage);
       }
     } else {

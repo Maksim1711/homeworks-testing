@@ -6,6 +6,20 @@ h1 {
 	font-size: 25px;
 }
 
+.card_blok {
+	display: inline-flex;
+	width: 290px;
+	height: 30px;
+	padding: auto;
+}
+
+.img {
+	border: 1px solid;
+	border-radius: 4px;
+	width: 30px;
+	height: 20px;
+}
+
 .validator {
 	margin-bottom: 50px;
 }
